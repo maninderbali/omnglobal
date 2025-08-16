@@ -1,0 +1,22 @@
+<app-header></app-header>
+<app-page-header title="Our Team" />
+
+<div class="teaminner-section-area sp2">
+  <div class="container">
+    <div class="row">
+      <div
+        *ngFor="let member of teamMembers.slice(3, 12)"
+        class="col-lg-4 col-md-6"
+      >
+        <app-member-card [member]="member" />
+      </div>
+
+      <div class="col-lg-12">
+        <div class="space30"></div>
+        <app-pagination />
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer containerClass="vl-footer4-section-area" />

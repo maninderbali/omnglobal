@@ -25,10 +25,10 @@ export class NavItemsComponent {
       icon: 'fa-solid fa-angle-down',
       subMenu: [
         { title: 'About Us', link: '/about' },
-        { title: 'Our Team', link: '/pages/our-team' },
-        { title: 'Testimonials', link: '/pages/testimonials' },
-        { title: 'Contact Us', link: '/pages/contact' },
-        { title: 'FAQ', link: '/pages/faq' },
+        { title: 'Our Team', link: '/our-team' },
+        { title: 'Testimonials', link: '/testimonials' },
+        { title: 'Contact Us', link: '/contact' },
+        { title: 'FAQ', link: '/faq' },
       ],
     },
     {

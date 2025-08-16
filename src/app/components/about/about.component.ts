@@ -6,6 +6,7 @@ import { AboutContent2Component } from './components/about-content-2/about-conte
 import { Home1TeamComponent } from './components/home1-team/home1-team.component';
 import { Home1TestimonialComponent } from './components/home1-testimonial/home1-testimonial.component';
 import { HeaderComponent } from '@app/components/header/header.component';
+import { FooterComponent } from '@app/components/footer/footer.component';
 
 @Component({
   selector: 'app-about',
@@ -17,6 +18,7 @@ import { HeaderComponent } from '@app/components/header/header.component';
     AboutContent2Component,
     Home1TeamComponent,
     Home1TestimonialComponent,
+    FooterComponent,
   ],
   templateUrl: './about.component.html',
   styles: ``,
