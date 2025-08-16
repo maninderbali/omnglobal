@@ -10,6 +10,7 @@ import { HeaderComponent } from '@app/components/home/components/header/header.c
 import { ServicesComponent } from '@app/components/home/components/services/services.component';
 import { WorkComponent } from '@app/components/home/components/work/work.component';
 import { TestimonialComponent } from '@app/components/home/components/testimonial/testimonial.component';
+import { AboutContentComponent } from '@app/components/home/components/about/components/about-content/about-content.component';
 
 @Component({
   selector: 'app-home',
@@ -25,6 +26,7 @@ import { TestimonialComponent } from '@app/components/home/components/testimonia
     BlogsComponent,
     CtaComponent,
     FooterComponent,
+    AboutContentComponent,
   ],
   templateUrl: './home.component.html',
   styles: ``,
