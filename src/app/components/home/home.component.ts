@@ -11,6 +11,7 @@ import { AboutComponent } from '@app/components/about/about.component';
 import { TestimonialComponent } from '@app/components/testimonial/testimonial.component';
 import { AboutContentComponent } from '@app/components/about/components/about-content/about-content.component';
 import { CtaComponent } from '@app/components/cta/cta.component';
+import { HomeTestimonialComponent } from '@app/components/home/components/testimonial/home-testimonial.component';
 
 @Component({
   selector: 'app-home',
@@ -22,7 +23,7 @@ import { CtaComponent } from '@app/components/cta/cta.component';
     WorkComponent,
     CaseStudiesComponent,
     PricingComponent,
-    TestimonialComponent,
+    HomeTestimonialComponent,
     BlogsComponent,
     CtaComponent,
     FooterComponent,

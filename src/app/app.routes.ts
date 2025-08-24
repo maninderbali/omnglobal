@@ -57,9 +57,9 @@ export const routes: Routes = [
     path: 'blog-details',
     component: BlogDetailsComponent,
   },
-  {
-    path: '',
-    loadChildren: () =>
-      import('./views/views.route').then((mod) => mod.VIEWS_ROUTES),
-  },
+  // {
+  //   path: '',
+  //   loadChildren: () =>
+  //     import('./views/views.route').then((mod) => mod.VIEWS_ROUTES),
+  // },
 ];
