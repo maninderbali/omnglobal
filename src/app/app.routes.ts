@@ -57,6 +57,10 @@ export const routes: Routes = [
     path: 'blog-details',
     component: BlogDetailsComponent,
   },
+  {
+    path: 'contact',
+    component: ContactComponent,
+  },
   // {
   //   path: '',
   //   loadChildren: () =>

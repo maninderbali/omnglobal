@@ -88,6 +88,6 @@ export class NavItemsComponent {
         // },
       ],
     },
-    { title: 'Contact', link: '/pages/contact' },
+    { title: 'Contact', link: '/contact' },
   ];
 }
