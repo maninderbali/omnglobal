@@ -36,14 +36,14 @@ export class NavItemsComponent {
       icon: 'fa-solid fa-angle-down',
       subMenu: [
         { title: 'Our Services', link: '/our-services' },
-        {
-          title: 'Service Details',
-          subMenu: [
-            { title: 'Service  Left', link: '/services/left' },
-            { title: 'Service  Right', link: '/services/right' },
-            { title: 'Service Single', link: '/services/single' },
-          ],
-        },
+        // {
+        //   title: 'Service Details',
+        //   subMenu: [
+        //     { title: 'Service  Left', link: '/services/left' },
+        //     { title: 'Service  Right', link: '/services/right' },
+        //     { title: 'Service Single', link: '/services/single' },
+        //   ],
+        // },
       ],
     },
     {
@@ -67,28 +67,25 @@ export class NavItemsComponent {
       subMenu: [
         {
           title: 'Our Blogs',
-          subMenu: [
-            { title: 'Blog One', link: '/blogs/one' },
-            { title: 'Blog Two', link: '/blogs/two' },
-          ],
+          link: '/our-blogs',
         },
-        {
-          title: 'Blog Sidebar',
-          subMenu: [
-            { title: 'Blog Left V1', link: '/blog-sidebar/left-1' },
-            { title: 'Blog Left V2', link: '/blog-sidebar/left-2' },
-            { title: 'Blog Right V1', link: '/blog-sidebar/right-1' },
-            { title: 'Blog Right V2', link: '/blog-sidebar/right-2' },
-          ],
-        },
-        {
-          title: 'Blog Details',
-          subMenu: [
-            { title: 'Blog  Left', link: '/blog-details/left' },
-            { title: 'Blog  Right', link: '/blog-details/right' },
-            { title: 'Blog Single', link: '/blog-details/single' },
-          ],
-        },
+        // {
+        //   title: 'Blog Sidebar',
+        //   subMenu: [
+        //     { title: 'Blog Left V1', link: '/blog-sidebar/left-1' },
+        //     { title: 'Blog Left V2', link: '/blog-sidebar/left-2' },
+        //     { title: 'Blog Right V1', link: '/blog-sidebar/right-1' },
+        //     { title: 'Blog Right V2', link: '/blog-sidebar/right-2' },
+        //   ],
+        // },
+        // {
+        //   title: 'Blog Details',
+        //   subMenu: [
+        //     { title: 'Blog  Left', link: '/blog-details/left' },
+        //     { title: 'Blog  Right', link: '/blog-details/right' },
+        //     { title: 'Blog Single', link: '/blog-details/single' },
+        //   ],
+        // },
       ],
     },
     { title: 'Contact', link: '/pages/contact' },
