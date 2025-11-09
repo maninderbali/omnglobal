@@ -7,7 +7,7 @@ import { RouterLink } from '@angular/router';
   selector: 'app-nav-items',
   imports: [RouterLink, CommonModule],
   templateUrl: './nav-items.component.html',
-  styles: ``,
+  styleUrls: ['./nav-items.component.scss'],
 })
 export class NavItemsComponent {
   @Input() themeBtn: string = '';
@@ -35,7 +35,100 @@ export class NavItemsComponent {
       title: 'Services',
       icon: 'fa-solid fa-angle-down',
       subMenu: [
-        { title: 'Our Services', link: '/our-services' },
+        {
+          title: 'Application Security',
+          subMenu: [
+            {
+              title: 'Web Application Security Testing',
+              link: '/services/web-application-security-testing',
+            },
+            {
+              title: 'API Penetration Testing',
+              link: '/services/api-security-testing',
+            },
+            {
+              title: 'Mobile Application Penetration Testing',
+              link: '/services/single',
+            },
+            { title: 'Source Code Review', link: '/services/single' },
+            { title: 'Threat Modeling', link: '/services/single' },
+          ],
+        },
+        {
+          title: 'Infrastructure Security',
+          subMenu: [
+            {
+              title: 'Internal Network Penetration Testing',
+              link: '/services/left',
+            },
+            {
+              title: 'External Network Penetration Testing',
+              link: '/services/right',
+            },
+            {
+              title: 'Active Directory Security Assessments',
+              link: '/services/single',
+            },
+            {
+              title: 'Wireless Network Penetration Testing',
+              link: '/services/single',
+            },
+            {
+              title: 'Firewall Configuration Reviews',
+              link: '/services/single',
+            },
+          ],
+        },
+        {
+          title: 'Cloud Security',
+          link: '/our-services',
+          subMenu: [
+            {
+              title: 'Cloud Configuration Reviews',
+              link: '/services/left',
+            },
+            {
+              title: 'Cloud Penetration Testing',
+              link: '/services/right',
+            },
+          ],
+        },
+        { title: 'Cyber Forensics', link: '/our-services' },
+        { title: 'Cyber Investigation', link: '/our-services' },
+        {
+          title: 'Digital Marketing',
+          subMenu: [
+            {
+              title: 'Search Engine Optimization',
+              link: '/services/left',
+            },
+            {
+              title: 'Social Media Optimization',
+              link: '/services/right',
+            },
+            {
+              title: 'Pay Per Click',
+              link: '/services/right',
+            },
+            {
+              title: 'Online Reputation Management',
+              link: '/services/right',
+            },
+          ],
+        },
+        {
+          title: 'IT Development',
+          subMenu: [
+            {
+              title: 'Website Development',
+              link: '/services/left',
+            },
+            {
+              title: 'App Development',
+              link: '/services/right',
+            },
+          ],
+        },
         // {
         //   title: 'Service Details',
         //   subMenu: [

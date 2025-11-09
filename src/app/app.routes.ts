@@ -61,6 +61,13 @@ export const routes: Routes = [
     path: 'contact',
     component: ContactComponent,
   },
+  {
+    path: 'services',
+    loadChildren: () =>
+      import('./components/our-services/services.routes').then(
+        (mod) => mod.SERVICES_ROUTES
+      ),
+  },
   // {
   //   path: '',
   //   loadChildren: () =>
