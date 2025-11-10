@@ -44,14 +44,17 @@ export class NavItemsComponent {
             },
             {
               title: 'API Penetration Testing',
-              link: '/services/api-security-testing',
+              link: '/services/api-penetration-testing',
             },
             {
               title: 'Mobile Application Penetration Testing',
-              link: '/services/single',
+              link: '/services/mobile-application-penetration-testing',
             },
-            { title: 'Source Code Review', link: '/services/single' },
-            { title: 'Threat Modeling', link: '/services/single' },
+            {
+              title: 'Source Code Review',
+              link: '/services/source-code-review',
+            },
+            { title: 'Threat Modeling', link: '/services/threat-modeling' },
           ],
         },
         {
@@ -59,23 +62,23 @@ export class NavItemsComponent {
           subMenu: [
             {
               title: 'Internal Network Penetration Testing',
-              link: '/services/left',
+              link: '/services/internal-network-penetration-testing',
             },
             {
               title: 'External Network Penetration Testing',
-              link: '/services/right',
+              link: '/services/external-network-penetration-testing',
             },
             {
               title: 'Active Directory Security Assessments',
-              link: '/services/single',
+              link: '/services/active-directory-security-assessments',
             },
             {
               title: 'Wireless Network Penetration Testing',
-              link: '/services/single',
+              link: '/services/wireless-network-penetration-testing',
             },
             {
               title: 'Firewall Configuration Reviews',
-              link: '/services/single',
+              link: '/services/firewall-configuration-reviews',
             },
           ],
         },
@@ -85,11 +88,11 @@ export class NavItemsComponent {
           subMenu: [
             {
               title: 'Cloud Configuration Reviews',
-              link: '/services/left',
+              link: '/services/cloud-configuration-reviews',
             },
             {
               title: 'Cloud Penetration Testing',
-              link: '/services/right',
+              link: '/services/cloud-penetration-testing',
             },
           ],
         },
@@ -100,19 +103,19 @@ export class NavItemsComponent {
           subMenu: [
             {
               title: 'Search Engine Optimization',
-              link: '/services/left',
+              link: '/services/search-engine-optimization',
             },
             {
               title: 'Social Media Optimization',
-              link: '/services/right',
+              link: '/services/social-media-optimization',
             },
             {
               title: 'Pay Per Click',
-              link: '/services/right',
+              link: '/services/pay-per-click',
             },
             {
               title: 'Online Reputation Management',
-              link: '/services/right',
+              link: '/services/online-reputation-management',
             },
           ],
         },
@@ -121,11 +124,11 @@ export class NavItemsComponent {
           subMenu: [
             {
               title: 'Website Development',
-              link: '/services/left',
+              link: '/services/website-development',
             },
             {
               title: 'App Development',
-              link: '/services/right',
+              link: '/services/app-development',
             },
           ],
         },
