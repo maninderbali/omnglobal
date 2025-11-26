@@ -51,12 +51,13 @@ export class FooterComponent {
       title: 'Contact Us',
       items: [
         {
-          label: '+1 123 456 7890',
-          link: 'tel:+11234567890',
+          label: '+91-7838819230 ',
+          link: 'tel:+917838819230',
           icon: 'assets/img/icons/phn1.svg',
         },
         {
-          label: '421 Allen, Mexico 4233',
+          label:
+            '1869/15 First floor, govindpuri extension,  kalkaji, new delhi-110019, India',
           icon: 'assets/img/icons/location1.svg',
         },
         {

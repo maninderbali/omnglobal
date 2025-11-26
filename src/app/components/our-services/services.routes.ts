@@ -82,6 +82,83 @@ export const routes: Routes = [
         '@app/components/our-services/components/cloud-penetration-testing/cloud-penetration-testing.component'
       ).then((m) => m.CloudPenetrationTestingComponent),
   },
+  {
+    path: 'mobile-app-development',
+    loadComponent: () =>
+      import(
+        '@app/components/our-services/components/mobile-app-development/mobile-app-development.component'
+      ).then((m) => m.MobileAppDevelopmentComponent),
+  },
+  {
+    path: 'web-app-development',
+    loadComponent: () =>
+      import(
+        '@app/components/our-services/components/web-app-development/web-app-development.component'
+      ).then((m) => m.WebAppDevelopmentComponent),
+  },
+  {
+    path: 'saas-development',
+    loadComponent: () =>
+      import(
+        '@app/components/our-services/components/saas-development/saas-development.component'
+      ).then((m) => m.SaasDevelopmentComponent),
+  },
+  {
+    path: 'blockchain-development',
+    loadComponent: () =>
+      import(
+        '@app/components/our-services/components/blockchain-development/blockchain-development.component'
+      ).then((m) => m.BlockchainDevelopmentComponent),
+  },
+  {
+    path: 'progressive-web-app',
+    loadComponent: () =>
+      import(
+        '@app/components/our-services/components/progressive-web-app/progressive-web-app.component'
+      ).then((m) => m.ProgressiveWebAppComponent),
+  },
+  {
+    path: 'search-engine-optimization',
+    loadComponent: () =>
+      import(
+        '@app/components/our-services/components/search-engine-optimization/search-engine-optimization.component'
+      ).then((m) => m.SeoComponent),
+  },
+  {
+    path: 'pay-per-click',
+    loadComponent: () =>
+      import(
+        '@app/components/our-services/components/ppc-sem/ppc-sem.component'
+      ).then((m) => m.PpcSemComponent),
+  },
+  {
+    path: 'social-media-marketing',
+    loadComponent: () =>
+      import(
+        '@app/components/our-services/components/social-media-marketing/social-media-marketing.component'
+      ).then((m) => m.SocialMediaMarketingComponent),
+  },
+  {
+    path: 'content-marketing',
+    loadComponent: () =>
+      import(
+        '@app/components/our-services/components/content-marketing/content-marketing.component'
+      ).then((m) => m.ContentMarketingComponent),
+  },
+  {
+    path: 'email-marketing',
+    loadComponent: () =>
+      import(
+        '@app/components/our-services/components/email-marketing/email-marketing.component'
+      ).then((m) => m.EmailMarketingComponent),
+  },
+  {
+    path: 'analytics-conversion-rate-optimization',
+    loadComponent: () =>
+      import(
+        '@app/components/our-services/components/analytics-cro/analytics-cro.component'
+      ).then((m) => m.AnalyticsCroComponent),
+  },
 ];
 
 export const SERVICES_ROUTES = routes;

@@ -106,16 +106,24 @@ export class NavItemsComponent {
               link: '/services/search-engine-optimization',
             },
             {
-              title: 'Social Media Optimization',
-              link: '/services/social-media-optimization',
-            },
-            {
               title: 'Pay Per Click',
               link: '/services/pay-per-click',
             },
             {
-              title: 'Online Reputation Management',
-              link: '/services/online-reputation-management',
+              title: 'Social Media Marketing',
+              link: '/services/social-media-marketing',
+            },
+            {
+              title: 'Content Marketing',
+              link: '/services/content-marketing',
+            },
+            {
+              title: 'Email Marketing',
+              link: '/services/email-marketing',
+            },
+            {
+              title: 'Analytics & Conversion Rate Optimization (CRO)',
+              link: '/services/analytics-conversion-rate-optimization',
             },
           ],
         },
@@ -123,12 +131,24 @@ export class NavItemsComponent {
           title: 'IT Development',
           subMenu: [
             {
-              title: 'Website Development',
-              link: '/services/website-development',
+              title: 'Mobile App Development',
+              link: '/services/mobile-app-development',
             },
             {
-              title: 'App Development',
-              link: '/services/app-development',
+              title: 'Web App Development',
+              link: '/services/web-app-development',
+            },
+            {
+              title: 'Software as a Service (SaaS) Development',
+              link: '/services/saas-development',
+            },
+            {
+              title: 'Blockchain Development',
+              link: '/services/blockchain-development',
+            },
+            {
+              title: 'Progressive Web App (PWA) Development',
+              link: '/services/progressive-web-app',
             },
           ],
         },

@@ -2,23 +2,29 @@ import { StickyScrollDirective } from '@/core/directives/sticky-scroll.directive
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { MobileMenuComponent } from "../mobile-menu/mobile-menu.component";
-import { NavItemsComponent } from "../nav-items/nav-items.component";
+import { MobileMenuComponent } from '../mobile-menu/mobile-menu.component';
+import { NavItemsComponent } from '../nav-items/nav-items.component';
 
 @Component({
   selector: 'app-header',
-  imports: [RouterLink, NavItemsComponent, StickyScrollDirective, CommonModule, MobileMenuComponent],
+  imports: [
+    RouterLink,
+    NavItemsComponent,
+    StickyScrollDirective,
+    CommonModule,
+    MobileMenuComponent,
+  ],
   templateUrl: './header.component.html',
-  styles: ``
+  styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent {
-    isMobileMenuOpen = false;
+  isMobileMenuOpen = false;
 
-    toggleMobileMenu() {
-        this.isMobileMenuOpen = !this.isMobileMenuOpen;
-    }
+  toggleMobileMenu() {
+    this.isMobileMenuOpen = !this.isMobileMenuOpen;
+  }
 
-    closeMobileMenu() {
-        this.isMobileMenuOpen = false;
-    }
+  closeMobileMenu() {
+    this.isMobileMenuOpen = false;
+  }
 }
