@@ -15,7 +15,7 @@ import { MobileMenuComponent } from '@app/components/mobile-menu/mobile-menu.com
     MobileMenuComponent,
   ],
   templateUrl: './header.component.html',
-  styles: ``,
+  styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent {
   isMobileMenuOpen = false;
