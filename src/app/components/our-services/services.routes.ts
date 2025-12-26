@@ -6,11 +6,17 @@ import { WebApplicationSecurityTestingComponent } from '@app/components/our-serv
 export const routes: Routes = [
   {
     path: 'web-application-security-testing',
-    component: WebApplicationSecurityTestingComponent,
+    loadComponent: () =>
+      import(
+        '@app/components/our-services/components/web-application-security-testing/web-application-security-testing.component'
+      ).then((m) => m.WebApplicationSecurityTestingComponent),
   },
   {
     path: 'mobile-application-penetration-testing',
-    component: MobileApplicationPenetrationTestingComponent,
+    loadComponent: () =>
+      import(
+        '@app/components/our-services/components/mobile-application-penetration-testing/mobile-application-penetration-testing.component'
+      ).then((m) => m.MobileApplicationPenetrationTestingComponent),
   },
   {
     path: 'api-penetration-testing',

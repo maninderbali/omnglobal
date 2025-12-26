@@ -20,17 +20,7 @@ export class NavItemsComponent {
       title: 'Home',
       link: '/home',
     },
-    {
-      title: 'Pages',
-      icon: 'fa-solid fa-angle-down',
-      subMenu: [
-        { title: 'About Us', link: '/about' },
-        { title: 'Our Team', link: '/our-team' },
-        { title: 'Testimonials', link: '/testimonials' },
-        { title: 'Contact Us', link: '/contact' },
-        { title: 'FAQ', link: '/faq' },
-      ],
-    },
+    { title: 'About Us', link: '/about' },
     {
       title: 'Services',
       icon: 'fa-solid fa-angle-down',
@@ -96,8 +86,6 @@ export class NavItemsComponent {
             },
           ],
         },
-        { title: 'Cyber Forensics', link: '/our-services' },
-        { title: 'Cyber Investigation', link: '/our-services' },
         {
           title: 'Digital Marketing',
           subMenu: [
@@ -163,21 +151,6 @@ export class NavItemsComponent {
       ],
     },
     {
-      title: 'Case Study',
-      icon: 'fa-solid fa-angle-down',
-      subMenu: [
-        { title: 'Case Study', link: '/case-study' },
-        {
-          title: 'Case Details',
-          subMenu: [
-            { title: 'Case Details Left', link: '/case-details/left' },
-            { title: 'Case Details Right', link: '/case-details/right' },
-            { title: 'Case Single', link: '/case-details/single' },
-          ],
-        },
-      ],
-    },
-    {
       title: 'Blogs',
       icon: 'fa-solid fa-angle-down',
       subMenu: [
@@ -185,25 +158,34 @@ export class NavItemsComponent {
           title: 'Our Blogs',
           link: '/our-blogs',
         },
-        // {
-        //   title: 'Blog Sidebar',
-        //   subMenu: [
-        //     { title: 'Blog Left V1', link: '/blog-sidebar/left-1' },
-        //     { title: 'Blog Left V2', link: '/blog-sidebar/left-2' },
-        //     { title: 'Blog Right V1', link: '/blog-sidebar/right-1' },
-        //     { title: 'Blog Right V2', link: '/blog-sidebar/right-2' },
-        //   ],
-        // },
-        // {
-        //   title: 'Blog Details',
-        //   subMenu: [
-        //     { title: 'Blog  Left', link: '/blog-details/left' },
-        //     { title: 'Blog  Right', link: '/blog-details/right' },
-        //     { title: 'Blog Single', link: '/blog-details/single' },
-        //   ],
-        // },
       ],
     },
-    { title: 'Contact', link: '/contact' },
+    { title: 'Contact Us', link: '/contact' },
+
+    // {
+    //   title: 'Pages',
+    //   icon: 'fa-solid fa-angle-down',
+    //   subMenu: [
+    //     { title: 'Our Team', link: '/our-team' },
+    //     { title: 'Testimonials', link: '/testimonials' },
+    //     { title: 'Contact Us', link: '/contact' },
+    //     { title: 'FAQ', link: '/faq' },
+    //   ],
+    // },
+    // {
+    //   title: 'Case Study',
+    //   icon: 'fa-solid fa-angle-down',
+    //   subMenu: [
+    //     { title: 'Case Study', link: '/case-study' },
+    //     {
+    //       title: 'Case Details',
+    //       subMenu: [
+    //         { title: 'Case Details Left', link: '/case-details/left' },
+    //         { title: 'Case Details Right', link: '/case-details/right' },
+    //         { title: 'Case Single', link: '/case-details/single' },
+    //       ],
+    //     },
+    //   ],
+    // },
   ];
 }

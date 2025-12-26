@@ -20,7 +20,7 @@ export type FooterSection = {
   styles: ``,
 })
 export class FooterComponent {
-  @Input() logo: string = 'assets/img/logo/logo2.png';
+  @Input() logo: string = 'assets/img/logo/logo.png';
   @Input() containerClass: string = 'vl-footer1-section-area';
   @Input() topSpace: boolean = false;
 
@@ -30,11 +30,13 @@ export class FooterComponent {
     {
       title: 'Quick Links',
       items: [
-        { label: 'About Us', link: '/pages/about' },
-        { label: 'It Solution', link: '/services' },
-        { label: 'Our Blog', link: '/blogs/one' },
-        { label: 'Pricing Plan' },
-        { label: 'Contact Us', link: '/pages/contact' },
+        { label: 'About Us', link: '/about' },
+        {
+          label: 'Services',
+          link: '/services/web-application-security-testing',
+        },
+        { label: 'Blogs', link: '/our-blogs' },
+        { label: 'Contact Us', link: '/contact' },
       ],
     },
     {

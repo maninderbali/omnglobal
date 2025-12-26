@@ -14,44 +14,50 @@ export class ServicesComponent {
     {
       id: 1,
       icon: 'assets/img/icons/service-icon11.svg',
-      title: 'Cyber Security Solution',
+      title: 'Application Security',
       description:
-        'Our advanced cybersecurity solution designed to protect against ever- an evolving threats, approach ensures.',
+        'Our application security solutions protect software from vulnerabilities, ensuring safe data, access control, and threat prevention.',
+      link: '/services/web-application-security-testing',
     },
     {
       id: 2,
       icon: 'assets/img/icons/service-icon12.svg',
-      title: 'Scalable Cloud Solutions',
+      title: 'Infrastructure Security',
       description:
-        'Our advanced cybersecurity solution designed to protect against ever- an evolving threats, approach ensures.',
+        'Our infrastructure security solutions safeguard servers, networks, and cloud environments against breaches and operational risks.',
+      link: '/services/internal-network-penetration-testing',
     },
     {
       id: 3,
       icon: 'assets/img/icons/service-icon13.svg',
-      title: 'Data Protection Services',
+      title: 'Cloud Security',
       description:
-        'Our advanced cybersecurity solution designed to protect against ever- an evolving threats, approach ensures.',
+        'Our cloud security solutions protect data, applications, and infrastructures in the cloud from threats and unauthorized access.',
+      link: '/services/cloud-configuration-reviews',
     },
     {
       id: 4,
       icon: 'assets/img/icons/service-icon14.svg',
-      title: 'Optimization Management',
+      title: 'Digital Marketing',
       description:
-        'Our advanced cybersecurity solution designed to protect against ever- an evolving threats, approach ensures.',
+        'Our digital marketing services help businesses increase online visibility, engage customers, and drive growth through targeted strategies.',
+      link: '/services/search-engine-optimization',
     },
     {
       id: 5,
       icon: 'assets/img/icons/service-icon15.svg',
-      title: 'HelpDesk 360 Solutions',
+      title: 'Wireless Network Security',
       description:
-        'Our advanced cybersecurity solution designed to protect against ever- an evolving threats, approach ensures.',
+        'Our wireless network security services protect wireless networks from unauthorized access, interference, and attacks.',
+      link: '/services/wireless-network-penetration-testing',
     },
     {
       id: 6,
       icon: 'assets/img/icons/service-icon16.svg',
-      title: 'Software Development',
+      title: 'IT Development',
       description:
-        'Our advanced cybersecurity solution designed to protect against ever- an evolving threats, approach ensures.',
+        'Our IT development services deliver scalable, secure, and high-performance solutions tailored to business needs.',
+      link: '/services/web-app-development',
     },
   ];
 }

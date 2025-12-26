@@ -34,10 +34,6 @@ export const routes: Routes = [
     component: TestimonialComponent, // Assuming TestimonialComponent is imported
   },
   {
-    path: 'contact',
-    component: ContactComponent,
-  },
-  {
     path: 'faq',
     component: FaqComponent,
   },
