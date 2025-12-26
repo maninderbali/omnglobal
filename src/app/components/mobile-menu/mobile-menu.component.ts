@@ -7,7 +7,7 @@ import { RouterLink } from '@angular/router';
   selector: 'app-mobile-menu',
   imports: [CommonModule, RouterLink],
   templateUrl: './mobile-menu.component.html',
-  styles: ``,
+  styleUrls: ['./mobile-menu.component.scss'],
 })
 export class MobileMenuComponent {
   @Input() isMobileMenuOpen!: boolean;
@@ -77,71 +77,175 @@ export class MobileMenuComponent {
 
   menu: MenuItem[] = [
     {
-      title: 'Pages',
-      icon: 'fa-regular fa-angle-down',
-      isOpen: false,
-      subMenu: [
-        { title: 'About Us', link: '/about' },
-        { title: 'Our Team', link: '/our-team' },
-        { title: 'Testimonials', link: '/testimonials' },
-        { title: 'FAQ', link: '/faq' },
-        { title: '404', link: '/error' },
-      ],
+      title: 'Home',
+      link: '/home',
     },
+    { title: 'About Us', link: '/about' },
     {
       title: 'Services',
-      isOpen: false,
-      icon: 'fa-angle-down',
+      icon: 'fa-solid fa-angle-down',
       subMenu: [
-        { title: 'Service Details Left', link: '/service-details/left' },
-        { title: 'Service Details Right', link: '/service-details/right' },
-        { title: 'Service Details', link: '/service-details' },
-      ],
-    },
-    {
-      title: 'Case Study',
-      isOpen: false,
-      icon: 'fa-angle-down',
-      subMenu: [
-        { title: 'Case Details Left', link: '/case-details/left' },
-        { title: 'Case Details Right', link: '/case-details/right' },
-        { title: 'Case Single', link: '/case-details/single' },
+        {
+          title: 'Application Security',
+          subMenu: [
+            {
+              title: 'Web Application Security Testing',
+              link: '/services/web-application-security-testing',
+            },
+            {
+              title: 'API Penetration Testing',
+              link: '/services/api-penetration-testing',
+            },
+            {
+              title: 'Mobile Application Penetration Testing',
+              link: '/services/mobile-application-penetration-testing',
+            },
+            {
+              title: 'Source Code Review',
+              link: '/services/source-code-review',
+            },
+            { title: 'Threat Modeling', link: '/services/threat-modeling' },
+          ],
+        },
+        {
+          title: 'Infrastructure Security',
+          subMenu: [
+            {
+              title: 'Internal Network Penetration Testing',
+              link: '/services/internal-network-penetration-testing',
+            },
+            {
+              title: 'External Network Penetration Testing',
+              link: '/services/external-network-penetration-testing',
+            },
+            {
+              title: 'Active Directory Security Assessments',
+              link: '/services/active-directory-security-assessments',
+            },
+            {
+              title: 'Wireless Network Penetration Testing',
+              link: '/services/wireless-network-penetration-testing',
+            },
+            {
+              title: 'Firewall Configuration Reviews',
+              link: '/services/firewall-configuration-reviews',
+            },
+          ],
+        },
+        {
+          title: 'Cloud Security',
+          link: '/our-services',
+          subMenu: [
+            {
+              title: 'Cloud Configuration Reviews',
+              link: '/services/cloud-configuration-reviews',
+            },
+            {
+              title: 'Cloud Penetration Testing',
+              link: '/services/cloud-penetration-testing',
+            },
+          ],
+        },
+        {
+          title: 'Digital Marketing',
+          subMenu: [
+            {
+              title: 'Search Engine Optimization',
+              link: '/services/search-engine-optimization',
+            },
+            {
+              title: 'Pay Per Click',
+              link: '/services/pay-per-click',
+            },
+            {
+              title: 'Social Media Marketing',
+              link: '/services/social-media-marketing',
+            },
+            {
+              title: 'Online Reputaion Management',
+              link: '/services/online-reputation-management',
+            },
+            // {
+            //   title: 'Email Marketing',
+            //   link: '/services/email-marketing',
+            // },
+            // {
+            //   title: 'Analytics & Conversion Rate Optimization (CRO)',
+            //   link: '/services/analytics-conversion-rate-optimization',
+            // },
+          ],
+        },
+        {
+          title: 'IT Development',
+          subMenu: [
+            {
+              title: 'Mobile App Development',
+              link: '/services/mobile-app-development',
+            },
+            {
+              title: 'Web App Development',
+              link: '/services/web-app-development',
+            },
+            // {
+            //   title: 'Software as a Service (SaaS) Development',
+            //   link: '/services/saas-development',
+            // },
+            // {
+            //   title: 'Blockchain Development',
+            //   link: '/services/blockchain-development',
+            // },
+            // {
+            //   title: 'Progressive Web App (PWA) Development',
+            //   link: '/services/progressive-web-app',
+            // },
+          ],
+        },
+        // {
+        //   title: 'Service Details',
+        //   subMenu: [
+        //     { title: 'Service  Left', link: '/services/left' },
+        //     { title: 'Service  Right', link: '/services/right' },
+        //     { title: 'Service Single', link: '/services/single' },
+        //   ],
+        // },
       ],
     },
     {
       title: 'Blogs',
-      isOpen: false,
       icon: 'fa-solid fa-angle-down',
       subMenu: [
         {
           title: 'Our Blogs',
-          subMenu: [
-            { title: 'Blog One', link: '/blogs/one' },
-            { title: 'Blog Two', link: '/blogs/two' },
-          ],
-        },
-        {
-          title: 'Blog Sidebar',
-          subMenu: [
-            { title: 'Blog Left V1', link: '/blog-sidebar/left-1' },
-            { title: 'Blog Left V2', link: '/blog-sidebar/left-2' },
-            { title: 'Blog Right V1', link: '/blog-sidebar/right-1' },
-            { title: 'Blog Right V2', link: '/blog-sidebar/right-2' },
-          ],
-        },
-        {
-          title: 'Blog Details',
-          subMenu: [
-            { title: 'Blog  Left', link: '/blog-details/left' },
-            { title: 'Blog  Right', link: '/blog-details/right' },
-            { title: 'Blog Single', link: '/blog-details/single' },
-          ],
+          link: '/our-blogs',
         },
       ],
     },
-    {
-      title: 'Contact ',
-      link: '/pages/contact',
-    },
+    { title: 'Contact Us', link: '/contact' },
+
+    // {
+    //   title: 'Pages',
+    //   icon: 'fa-solid fa-angle-down',
+    //   subMenu: [
+    //     { title: 'Our Team', link: '/our-team' },
+    //     { title: 'Testimonials', link: '/testimonials' },
+    //     { title: 'Contact Us', link: '/contact' },
+    //     { title: 'FAQ', link: '/faq' },
+    //   ],
+    // },
+    // {
+    //   title: 'Case Study',
+    //   icon: 'fa-solid fa-angle-down',
+    //   subMenu: [
+    //     { title: 'Case Study', link: '/case-study' },
+    //     {
+    //       title: 'Case Details',
+    //       subMenu: [
+    //         { title: 'Case Details Left', link: '/case-details/left' },
+    //         { title: 'Case Details Right', link: '/case-details/right' },
+    //         { title: 'Case Single', link: '/case-details/single' },
+    //       ],
+    //     },
+    //   ],
+    // },
   ];
 }
