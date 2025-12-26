@@ -145,11 +145,11 @@ export const routes: Routes = [
       ).then((m) => m.SocialMediaMarketingComponent),
   },
   {
-    path: 'content-marketing',
+    path: 'online-reputation-management',
     loadComponent: () =>
       import(
-        '@app/components/our-services/components/content-marketing/content-marketing.component'
-      ).then((m) => m.ContentMarketingComponent),
+        '@app/components/our-services/components/online-reputation-management/online-reputation-management.component'
+      ).then((m) => m.OnlineReputationManagementComponent),
   },
   {
     path: 'email-marketing',

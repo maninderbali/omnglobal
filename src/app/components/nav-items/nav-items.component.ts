@@ -102,17 +102,17 @@ export class NavItemsComponent {
               link: '/services/social-media-marketing',
             },
             {
-              title: 'Content Marketing',
-              link: '/services/content-marketing',
+              title: 'Online Reputaion Management',
+              link: '/services/online-reputation-management',
             },
-            {
-              title: 'Email Marketing',
-              link: '/services/email-marketing',
-            },
-            {
-              title: 'Analytics & Conversion Rate Optimization (CRO)',
-              link: '/services/analytics-conversion-rate-optimization',
-            },
+            // {
+            //   title: 'Email Marketing',
+            //   link: '/services/email-marketing',
+            // },
+            // {
+            //   title: 'Analytics & Conversion Rate Optimization (CRO)',
+            //   link: '/services/analytics-conversion-rate-optimization',
+            // },
           ],
         },
         {
@@ -126,18 +126,18 @@ export class NavItemsComponent {
               title: 'Web App Development',
               link: '/services/web-app-development',
             },
-            {
-              title: 'Software as a Service (SaaS) Development',
-              link: '/services/saas-development',
-            },
-            {
-              title: 'Blockchain Development',
-              link: '/services/blockchain-development',
-            },
-            {
-              title: 'Progressive Web App (PWA) Development',
-              link: '/services/progressive-web-app',
-            },
+            // {
+            //   title: 'Software as a Service (SaaS) Development',
+            //   link: '/services/saas-development',
+            // },
+            // {
+            //   title: 'Blockchain Development',
+            //   link: '/services/blockchain-development',
+            // },
+            // {
+            //   title: 'Progressive Web App (PWA) Development',
+            //   link: '/services/progressive-web-app',
+            // },
           ],
         },
         // {
