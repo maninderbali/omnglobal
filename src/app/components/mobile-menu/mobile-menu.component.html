@@ -68,7 +68,9 @@
                   >
                     @for (subSubItem of subItem.subMenu; track $index) {
                     <li>
-                      <a [href]="subSubItem.link">{{ subSubItem.title }}</a>
+                      <a [routerLink]="subSubItem.link">{{
+                        subSubItem.title
+                      }}</a>
                     </li>
                     }
                   </ul>
@@ -80,7 +82,7 @@
                     <i class="fas fa-chevron-right"></i>
                   </button>
                   }@else{
-                  <a [href]="subItem.link">{{ subItem.title }}</a>
+                  <a [routerLink]="subItem.link">{{ subItem.title }}</a>
                   }
                 </li>
                 }
@@ -104,17 +106,18 @@
         <div class="space20"></div>
         <span
           ><a href="javascript:void(0)">
-            <i class="fa-regular fa-envelope"></i> +57 9954 6476</a
+            <i class="fa-regular fa-envelope"></i>+91-7838819230</a
           ></span
         >
         <span
           ><a href="javascript:void(0)"
-            ><i class="fa-solid fa-phone"></i> hello&#64;exdos.com</a
+            ><i class="fa-solid fa-phone"></i> info&#64;omnglobal.org</a
           ></span
         >
         <span
           ><a href="javascript:void(0)"
-            ><i class="fa-solid fa-location-dot"></i> Bhemeara,Kushtia</a
+            ><i class="fa-solid fa-location-dot"></i> 1869/15 First floor,
+            Govindpuri Extension, Kalkaji, New Delhi - 110019, India</a
           ></span
         >
       </div>
@@ -124,8 +127,16 @@
         <div class="space20"></div>
         <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
         <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
-        <a href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a>
-        <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
+        <a
+          href="https://www.linkedin.com/in/omn-global-a4b7ba393/"
+          target="_blank"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/omnglobal2/"
+          target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
       </div>
     </div>
   </div>

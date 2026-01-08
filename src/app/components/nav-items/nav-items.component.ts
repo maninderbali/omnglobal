@@ -150,16 +150,7 @@ export class NavItemsComponent {
         // },
       ],
     },
-    {
-      title: 'Blogs',
-      icon: 'fa-solid fa-angle-down',
-      subMenu: [
-        {
-          title: 'Our Blogs',
-          link: '/our-blogs',
-        },
-      ],
-    },
+
     { title: 'Contact Us', link: '/contact' },
 
     // {

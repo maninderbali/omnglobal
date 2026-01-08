@@ -42,11 +42,11 @@ export class FooterComponent {
     {
       title: 'Our Services',
       items: [
-        { label: 'Cyber Security Solution' },
-        { label: 'Scalable Cloud Solutions' },
-        { label: 'Data Protection Services' },
-        { label: 'Optimization Management' },
-        { label: 'Software Development' },
+        { label: 'Application Security' },
+        { label: 'Infrastructure Security' },
+        { label: 'Cloud Security' },
+        { label: 'Digital Marketing' },
+        { label: 'IT Development' },
       ],
     },
     {

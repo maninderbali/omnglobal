@@ -1,0 +1,120 @@
+/* Keeps the same visual language as your other pages */
+.contact-inner-area {
+  .heading2 {
+    h5 {
+      font-weight: 600;
+      color: #374151;
+      img {
+        height: 20px;
+        margin-right: 8px;
+        vertical-align: middle;
+      }
+    }
+    h2 {
+      margin-top: 8px;
+      color: #0b1320;
+      font-size: 2rem;
+    }
+  }
+
+  .widget-contactbox {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background: #fff;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+
+    .icons {
+      width: 56px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(180deg, #eef4ff, #fff);
+      border-radius: 10px;
+      img {
+        width: 28px;
+        height: 28px;
+      }
+    }
+
+    .content {
+      h4 {
+        margin: 0;
+        color: #0b1320;
+        font-size: 1.05rem;
+      }
+      a {
+        color: #2563eb;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .address-text {
+        margin: 0;
+        color: #374151;
+        line-height: 1.4;
+      }
+    }
+  }
+
+  .img1 {
+    img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+  }
+
+  .contact-details-box {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+
+    h3 {
+      margin: 0 0 8px 0;
+      color: #0b1320;
+    }
+
+    .lead {
+      color: #374151;
+      margin-bottom: 1rem;
+    }
+
+    .contact-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li {
+        margin-bottom: 0.75rem;
+        font-size: 1rem;
+        color: #111827;
+
+        strong {
+          display: inline-block;
+          width: 86px;
+          color: #0b1320;
+        }
+        a {
+          color: #2563eb;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .note {
+      margin-top: 1rem;
+      color: #6b7280;
+      font-size: 0.95rem;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .contact-details-box,
+    .img1 {
+      order: 0;
+    }
+  }
+}
